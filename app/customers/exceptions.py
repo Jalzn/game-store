@@ -8,3 +8,7 @@ class CustomerInvalidPhoneException(Exception):
 
 class CustomerAlreadyExistsException(Exception):
     pass
+
+
+class CustomerNotFoundException(Exception):
+    pass
